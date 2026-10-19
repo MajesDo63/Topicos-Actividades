@@ -1,0 +1,10 @@
+{"pregunta": "¿Cómo evito guardar contraseñas o tokens expuestos en el código fuente?", "esperado": "sec-01", "tipo": "sinonimo"}
+{"pregunta": "subí un API key a GitHub por accidente, ¿qué debo hacer?", "esperado": "sec-01", "tipo": "normal"}
+{"pregunta": "¿Qué consulta SQL parametrizada previene inyección de código?", "esperado": "sec-02", "tipo": "normal"}
+{"pregunta": "SEC-02", "esperado": "sec-02", "tipo": "exacto"}
+{"pregunta": "¿Cómo asegurar que las bitácoras no tengan datos personales sensibles de usuarios?", "esperado": "sec-03", "tipo": "sinonimo"}
+{"pregunta": "sanitizar entradas de usuario para prevenir vulnerabilidades XSS", "esperado": "sec-04", "tipo": "sinonimo"}
+{"pregunta": "¿Cuál es la política para captura y manejo de excepciones en controladores?", "esperado": "sec-05", "tipo": "normal"}
+{"pregunta": "SEC-06", "esperado": "sec-06", "tipo": "exacto"}
+{"pregunta": "¿Por qué no se debe usar float para montos financieros o monetarios?", "esperado": "sec-07", "tipo": "normal"}
+{"pregunta": "¿Cómo implementar control de acceso e inspección de roles en endpoints?", "esperado": "sec-08", "tipo": "normal"}

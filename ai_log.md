@@ -1,8 +1,11 @@
-# Bitácora de uso de IA
+## Entrada Actividad 1 (A1) - Variante v2-revisor
 
-> Obligatoria en todas las entregas. Una fila por uso relevante de una herramienta de IA (chat, asistente de código, generador).
-> La IA es una herramienta permitida; ocultarla no lo es. Se califica la honestidad y la calidad de la validación, no si la usaste.
-
-| Fecha | Entrega | Herramienta y modelo | Para qué la usé | Prompt (resumen o enlace) | Qué acepté | Qué cambié o rechacé y por qué | Cómo lo validé |
-|---|---|---|---|---|---|---|---|
-| 2026-10-16 | A1 | Ejemplo: asistente de código | Ejemplo: generar el esqueleto de la función de normalización | "Escribe una función en numpy que…" | La estructura del ciclo | Usaba `/` sin cuidar la norma cero; lo corregí | Prueba `test_normalizar_vector_cero` |
+- **Herramienta utilizada:** Asistente IA (Gemini).
+- **Caso de uso:** 
+  - Generación de la estructura del archivo `evals/a1_v2-revisor.jsonl` con 10 preguntas equilibradas entre casos normales, exactos y sinónimos.
+  - Asignación de dimensiones temáticas y vectores de prueba para el ejercicio manual en `notebooks/a1_manual.ipynb`.
+  - Redacción base de las conclusiones del reporte.
+- **Validación de parte mia y correcciones:** 
+  - Se verificaron manualmente los IDs esperados (`sec-01`, `sec-02`, etc.) contra los documentos reales del corpus de `v2-revisor`.
+  - Se corrigieron sintaxis de comillas y formato JSONL para evitar errores de parseo en la prueba de comparación.
+  - Se validó que el cálculo numérico del coseno en el notebook fuera coherente con la teoría de vectores normalizados.

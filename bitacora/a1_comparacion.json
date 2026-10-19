@@ -1,0 +1,160 @@
+[
+  {
+    "pregunta": "¿Cómo evito guardar contraseñas o tokens expuestos en el código fuente?",
+    "tipo": "sinonimo",
+    "esperado": "sec-01",
+    "vector_top3": [
+      "sec-01",
+      "sec-03",
+      "sec-06"
+    ],
+    "palabras_top3": [
+      "sec-06",
+      "sec-03",
+      "sec-10"
+    ]
+  },
+  {
+    "pregunta": "subí un API key a GitHub por accidente, ¿qué debo hacer?",
+    "tipo": "normal",
+    "esperado": "sec-01",
+    "vector_top3": [
+      "sec-01",
+      "sec-03",
+      "sec-08"
+    ],
+    "palabras_top3": [
+      "sec-01"
+    ]
+  },
+  {
+    "pregunta": "¿Qué consulta SQL parametrizada previene inyección de código?",
+    "tipo": "normal",
+    "esperado": "sec-02",
+    "vector_top3": [
+      "sec-02",
+      "sec-09",
+      "sec-04"
+    ],
+    "palabras_top3": [
+      "sec-02",
+      "sec-10",
+      "sec-04"
+    ]
+  },
+  {
+    "pregunta": "SEC-02",
+    "tipo": "exacto",
+    "esperado": "sec-02",
+    "vector_top3": [
+      "sec-01",
+      "sec-10",
+      "sec-04"
+    ],
+    "palabras_top3": [
+      "sec-02",
+      "sec-08",
+      "sec-09"
+    ]
+  },
+  {
+    "pregunta": "¿Cómo asegurar que las bitácoras no tengan datos personales sensibles de usuarios?",
+    "tipo": "sinonimo",
+    "esperado": "sec-03",
+    "vector_top3": [
+      "sec-03",
+      "sec-05",
+      "sec-08"
+    ],
+    "palabras_top3": [
+      "sec-09",
+      "sec-02",
+      "sec-03"
+    ]
+  },
+  {
+    "pregunta": "sanitizar entradas de usuario para prevenir vulnerabilidades XSS",
+    "tipo": "sinonimo",
+    "esperado": "sec-04",
+    "vector_top3": [
+      "sec-04",
+      "sec-02",
+      "sec-08"
+    ],
+    "palabras_top3": [
+      "sec-08",
+      "sec-06"
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la política para captura y manejo de excepciones en controladores?",
+    "tipo": "normal",
+    "esperado": "sec-05",
+    "vector_top3": [
+      "sec-05",
+      "sec-11",
+      "sec-04"
+    ],
+    "palabras_top3": [
+      "sec-05",
+      "sec-11"
+    ]
+  },
+  {
+    "pregunta": "SEC-06",
+    "tipo": "exacto",
+    "esperado": "sec-06",
+    "vector_top3": [
+      "sec-01",
+      "sec-10",
+      "sec-04"
+    ],
+    "palabras_top3": [
+      "sec-06",
+      "sec-08",
+      "sec-09"
+    ]
+  },
+  {
+    "pregunta": "¿Por qué no se debe usar float para montos financieros o monetarios?",
+    "tipo": "normal",
+    "esperado": "sec-07",
+    "vector_top3": [
+      "sec-07",
+      "sec-04",
+      "sec-02"
+    ],
+    "palabras_top3": [
+      "sec-07",
+      "sec-08",
+      "sec-04"
+    ]
+  },
+  {
+    "pregunta": "¿Cómo implementar control de acceso e inspección de roles en endpoints?",
+    "tipo": "normal",
+    "esperado": "sec-08",
+    "vector_top3": [
+      "sec-08",
+      "sec-05",
+      "sec-04"
+    ],
+    "palabras_top3": []
+  },
+  {
+    "resumen": {
+      "vector": {
+        "acierto@1": 8,
+        "acierto@3": 8,
+        "n": 10
+      },
+      "palabras": {
+        "acierto@1": 6,
+        "acierto@3": 7,
+        "n": 10
+      }
+    },
+    "variante": "v2-revisor",
+    "embeddings": "gemini"
+  }
+]
